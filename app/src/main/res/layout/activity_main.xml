@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/titulo"
+            android:layout_width="250dp"
+            android:layout_height="50dp"
+            android:text="@string/titulo"
+            android:textSize="30dp"
+            android:textAlignment="center"/>
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_toRightOf="@id/titulo"
+            android:src="@drawable/visto"/>
+
+    </RelativeLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="350dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/bm1"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="PROGRAMACION AVANZADA I"
+                android:onClick="listas"
+                android:background="@drawable/boton"/>
+
+            <RelativeLayout
+                android:id="@+id/rm1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/t1"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="@string/nota1"
+                    android:textAlignment="center"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:id="@+id/t2"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="@string/nota2"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:layout_below="@id/t1"/>
+
+                <TextView
+                    android:id="@+id/t3"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="@string/nota3"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:layout_below="@id/t2"/>
+
+                <EditText
+                    android:id="@+id/n1m1"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_toRightOf="@id/t1"
+                    android:inputType="numberDecimal"/>
+
+                <EditText
+                    android:id="@+id/n2m1"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_below="@id/t1"
+                    android:layout_toRightOf="@id/t1"
+                    android:inputType="numberDecimal"/>
+
+                <EditText
+                    android:id="@+id/n3m1"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_below="@id/t2"
+                    android:layout_toRightOf="@id/t1"
+                    android:inputType="numberDecimal"/>
+
+                <TextView
+                    android:id="@+id/ndm1"
+                    android:layout_width="118dp"
+                    android:layout_height="60dp"
+                    android:layout_toRightOf="@id/n1m1"
+                    android:textSize="50dp"
+                    android:textAlignment="center"/>
+
+                <ImageView
+                    android:id="@+id/im1"
+                    android:layout_width="118dp"
+                    android:layout_height="60dp"
+                    android:layout_below="@id/ndm1"
+                    android:layout_toRightOf="@id/n1m1"/>
+
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/bm2"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="SOFTWARE GRAFICO"
+                android:onClick="listas"
+                android:background="@drawable/boton"/>
+
+            <RelativeLayout
+                android:id="@+id/rm2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/t12"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="@string/nota1"
+                    android:textAlignment="center"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:id="@+id/t22"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="@string/nota2"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:layout_below="@id/t12"/>
+
+                <TextView
+                    android:id="@+id/t32"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="@string/nota3"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:layout_below="@id/t22"/>
+
+                <EditText
+                    android:id="@+id/n1m2"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_toRightOf="@id/t12"
+                    android:inputType="numberDecimal"/>
+
+                <EditText
+                    android:id="@+id/n2m2"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_below="@id/t12"
+                    android:layout_toRightOf="@id/t12"
+                    android:inputType="numberDecimal"/>
+
+                <EditText
+                    android:id="@+id/n3m2"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_below="@id/t22"
+                    android:layout_toRightOf="@id/t12"
+                    android:inputType="numberDecimal"/>
+
+                <TextView
+                    android:id="@+id/ndm2"
+                    android:layout_width="118dp"
+                    android:layout_height="60dp"
+                    android:layout_toRightOf="@id/n1m2"
+                    android:textSize="50dp"
+                    android:textAlignment="center"/>
+
+                <ImageView
+                    android:id="@+id/im2"
+                    android:layout_width="118dp"
+                    android:layout_height="60dp"
+                    android:layout_below="@id/ndm2"
+                    android:layout_toRightOf="@id/n1m2"/>
+
+            </RelativeLayout>
+
+            <Button
+                android:id="@+id/bm3"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="SEMINARIO DE PROFUNDIZACION"
+                android:onClick="listas"
+                android:background="@drawable/boton"/>
+
+            <RelativeLayout
+                android:id="@+id/rm3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone">
+
+                <TextView
+                    android:id="@+id/t13"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="@string/nota1"
+                    android:textAlignment="center"
+                    android:textSize="20dp"/>
+
+                <TextView
+                    android:id="@+id/t23"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="@string/nota2"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:layout_below="@id/t13"/>
+
+                <TextView
+                    android:id="@+id/t33"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="@string/nota3"
+                    android:textAlignment="center"
+                    android:textSize="20dp"
+                    android:layout_below="@id/t23"/>
+
+                <EditText
+                    android:id="@+id/n1m3"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_toRightOf="@id/t13"
+                    android:inputType="numberDecimal"/>
+
+                <EditText
+                    android:id="@+id/n2m3"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_below="@id/t13"
+                    android:layout_toRightOf="@id/t13"
+                    android:inputType="numberDecimal"/>
+
+                <EditText
+                    android:id="@+id/n3m3"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:layout_below="@id/t23"
+                    android:layout_toRightOf="@id/t13"
+                    android:inputType="numberDecimal"/>
+
+                <TextView
+                    android:id="@+id/ndm3"
+                    android:layout_width="118dp"
+                    android:layout_height="60dp"
+                    android:layout_toRightOf="@id/n1m3"
+                    android:text="0.0"
+                    android:textSize="50dp"
+                    android:textAlignment="center"/>
+
+                <ImageView
+                    android:id="@+id/im3"
+                    android:layout_width="118dp"
+                    android:layout_height="60dp"
+                    android:layout_below="@id/ndm3"
+                    android:layout_toRightOf="@id/n1m3" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp">
+
+        <TextView
+            android:id="@+id/def"
+            android:layout_width="160dp"
+            android:layout_height="match_parent"
+            android:text="@string/definitiva"
+            android:textSize="35dp"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/dt"
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/def"
+            android:textSize="40dp"
+            android:textAlignment="center"/>
+
+        <ImageView
+            android:id="@+id/imt"
+            android:layout_width="75dp"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/dt" />
+
+    </RelativeLayout>
+
+    <Button
+        android:id="@+id/info"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/acerca"
+        android:onClick="acerca"
+        android:background="@drawable/boton"/>
+
+</LinearLayout>

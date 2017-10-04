@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Notas</string>
+    <string name="acerca">About</string>
+    <string name="definitiva">Average</string>
+    <string name="nota1">Note 1</string>
+    <string name="nota2">Note 2</string>
+    <string name="nota3">Note 3</string>
+    <string name="regresar">To return</string>
+    <string name="titulo">My qualifications</string>
+    <string name="vacios">There are empty fields</string>
+    <string name="vfr">values out of range</string>
+    <string name="creado">created by; Christian Camilo Ordoñez B  Email: c2ob@hotmail.com</string>
+</resources>

@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Notas</string>
+    <string name="titulo">Mis Calificaciones</string>
+    <string name="acerca">Acerca de</string>
+    <string name="nota1">Nota 1</string>
+    <string name="nota2">Nota 2</string>
+    <string name="nota3">Nota 3</string>
+    <string name="definitiva">Promedio</string>
+    <string name="creado">Creado por: Christian Camilo Ordoñez B
+    Correo: c2ob@hotmail.com</string>
+    <string name="regresar">Regresar</string>
+    <string name="vacios">Existen campos vacios</string>
+    <string name="vfr">Valores fuera de rango</string>
+</resources>
